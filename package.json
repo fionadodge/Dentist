@@ -1,14 +1,13 @@
 {
   "name": "dentist",
   "version": "1.0.0",
-  "description": "Brant Road Dentist",
+  "description": "",
   "main": "index.js",
   "scripts": {
-    "sass": "sass --watch ./sass/main.scss:./css/style.css"
+    "sass":"sass --watch ./sass/main.scss:./css/style.css -w --style compressed",
+    "prefix": "postcss ./css/style.css --use autoprefixer -d .css/prefixed/"
   },
   "author": "Fiona Dodge",
   "license": "ISC",
-  "dependencies": {
-    "sass": "^1.58.1"
-  }
+  "browserlist": "last 4 versions"
 }

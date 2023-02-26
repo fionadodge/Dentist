@@ -1,1 +1,19 @@
-/*# sourceMappingURL=main.css.map */
+body {
+  font-family: Helvetica;
+  font-size: 18px;
+  letter-spacing: 0.1em;
+  word-spacing: 0.1em;
+  line-height: 1.4em;
+}
+
+h1 {
+  font-decoration: underline;
+}
+
+a:visited {
+  color: #cc33ff;
+}
+
+a:hover {
+  text-transform: uppercase;
+}/*# sourceMappingURL=main.css.map */
