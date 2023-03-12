@@ -1,21 +1,20 @@
 .container {
-  position: relative;
+  display: flex;
+  flex-direction: row;
   max-width: 800px;
-  margin: 0 auto;
 }
 
 .container img {
-  vertical-align: middle;
+  justify-items: left;
+  position: absolute;
+  padding-top: 10px;
   height: 100px;
   width: 200px;
 }
 
 .container .content {
-  position: absolute;
-  bottom: 0;
-  background: rgba(0, 0, 0, 0.2); /* Black background with 0.5 opacity */
+  display: flex;
   color: #f1f1f1;
-  width: 100%;
   padding: 20px;
 }
 
