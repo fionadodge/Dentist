@@ -1,12 +1,21 @@
-.header {
-    padding: 20px;
-    box-shadow: 0 0 40px 0 #a3a1a1;
-    margin-top: 0px;
-  }
-
-  body > header > img {
-  width: 75px;
-  height: 25px;
-  justify-items: left;
-  position: absolute;
+.container {
+  position: relative;
+  max-width: 800px;
+  margin: 0 auto;
 }
+
+.container img {
+  vertical-align: middle;
+  height: 100px;
+  width: 200px;
+}
+
+.container .content {
+  position: absolute;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.2); /* Black background with 0.5 opacity */
+  color: #f1f1f1;
+  width: 100%;
+  padding: 20px;
+}
+

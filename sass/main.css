@@ -4,30 +4,29 @@ body {
   font-size: 300;
   font-size: 18px;
   letter-spacing: 0.1em;
-  word-spacing: 0.1em;
-  line-height: 1.4em;
   text-align: center;
 }
 
-.nav-links {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  margin-right: 10px;
+.topnav {
+  overflow: hidden;
   background-color: #005eb8;
 }
 
-.li {
-  color: white;
-  list-style-type: none;
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
   text-decoration: none;
-  font-size: 10px;
+  font-size: 17px;
 }
 
-a:visited {
-  color: purple;
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
 }
 
-a:hover {
-  text-transform: uppercase;
+.topnav a.active {
+  background-color: #005eb8;
+  color: white;
 }/*# sourceMappingURL=main.css.map */
