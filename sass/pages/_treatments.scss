@@ -1,22 +1,14 @@
-.row1 {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  margin: 0 auto;
-}
 
-.row1::after {
-  content: "";
-  display: table;
-  clear: both;
-}
 
 .column1 {
- flex-basis: calc(33.33% - 20px);
- margin: 10px;
- display: flex;
- justify-content: center;
- align-items: center;
+  flex-basis: calc(33.33% - 20px);
+  margin: 10px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  max-height: 350px;
 }
 
 .flip-card {
