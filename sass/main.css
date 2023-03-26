@@ -94,7 +94,7 @@ body {
   justify-content: space-around;
   flex-wrap: wrap;
   height: auto;
-  padding: 0;
+  padding-bottom: 20px;
 }
 
 .column1 {
@@ -165,4 +165,7 @@ body {
     width: 100%;
     padding: 0;
   }
+}
+body > section {
+  padding: 20px;
 }/*# sourceMappingURL=main.css.map */
